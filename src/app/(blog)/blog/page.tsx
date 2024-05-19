@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Blog =async () => {
+const Blogs =async () => {
   return (
     <div>page</div>
   )
 }
 
-export default Blog;  
+export default Blogs;  
