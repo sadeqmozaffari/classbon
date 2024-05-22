@@ -77,16 +77,13 @@ const dana = localFont({
   variable: "--font-dana",
 });
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      dir="rtl"
-      className={`dark ${figtree.variable} ${dana.variable}`}>
+    <html dir="rtl" className={`dark ${figtree.variable} ${dana.variable}`}>
       <body className="grid grid-rows-[80px_1fr_auto] min-h-screen font-bold uppercase dark:bg-base-100 dark:text-base-content">
         <Header />
         <main>{children}</main>

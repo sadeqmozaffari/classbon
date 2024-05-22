@@ -64,6 +64,11 @@ const config: Config = {
     colors: tailwindColors,
     container: {
       center: true,
+      padding: {
+        DEFAULT: "1rem",
+        lg: "3rem",
+        xl: "4rem",
+      },
     },
     extend: {
       backgroundImage: {
