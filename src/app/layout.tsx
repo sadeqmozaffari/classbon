@@ -2,7 +2,7 @@ import "./globals.css";
 import { Figtree } from "next/font/google";
 import localFont from "next/font/local";
 import { Header } from "./_components/header";
-import { Footer } from "./_components/footer";
+import { Footer } from "./_components/footer/footer";
 
 const figtree = Figtree({
   display: "swap",
